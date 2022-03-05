@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  font-size: 3rem;
+  height: 25vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: rgba(202, 176, 176, 0.8);
+  -webkit-box-shadow: 0 0.35rem rgba(104, 41, 41, 0.233);
+          box-shadow: 0 0.35rem rgba(104, 41, 41, 0.233);
+}
+
+main {
+  height: 60vh;
+  background: rgba(255, 0, 0, 0.479);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main h1.introduction {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-size: 2.5rem;
+  width: 100vw;
+  height: 15vh;
+  background: rgba(0, 0, 255, 0.198);
+}
+
+main section {
+  padding-top: 2rem;
+  font-size: 2.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main section section.left div.guestAnwserPlace {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main section section.left div.guestAnwserPlace input#guestAnwser {
+  margin: 0 1rem;
+  font-size: 50px;
+  text-align: center;
+  width: 20vw;
+  height: 10vh;
+}
+
+main section section.left div.guestAnwserPlace button {
+  margin: 0 1rem;
+  font-size: 50px;
+  width: 20vw;
+  height: 10vh;
+}
+
+main section section.right {
+  margin: 2rem 0;
+}
+
+main section section.right h1.anwser {
+  text-align: center;
+}
+
+footer {
+  height: 15vh;
+  background: rgba(202, 176, 176, 0.8);
+  -webkit-box-shadow: 0 -0.35rem rgba(104, 41, 41, 0.123);
+          box-shadow: 0 -0.35rem rgba(104, 41, 41, 0.123);
+}
+/*# sourceMappingURL=style.css.map */
